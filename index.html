@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <form class="tempForm" onsubmit="calculateTemp(); return false">
+        <label class="lableClass" for="temp">Please enter the temperature you would like to convert</label>
+        <br/>
+        <input class="labelInput" type="number" name="temp" id="temp">
+        <select class="dropDown" name="choose_temp"  id="choose_temp">
+            <option value="cel">°Celcius</option>
+            <option value="far">°Fahrenheit</option>
+        </select>
+        <br>
+
+        <input class="submitBtn" type="submit" name="temp" id="temp">
+        <br>
+        <span id="resultContainer"></span>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(235, 219, 151);
+    display: grid;
+    place-items: center;
+}
+
+form{
+    background-color: #E99497;
+    padding: 40px 40px 60px 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+.labelInput{
+    margin: 20px 0 20px 0;
+    width: 5rem;
+}
+
+.dropDown{
+    width: 6rem;
+    margin: 10px;
+}
+
+.submitBtn{
+    padding: 3px 8px 3px 8px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.submitBtn:hover{
+    font-size: 1.2rem;
+}
+
+
+
